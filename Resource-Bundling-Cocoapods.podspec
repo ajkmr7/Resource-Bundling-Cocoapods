@@ -16,4 +16,10 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'Custom-Pod-Resources' => ['Resource-Bundling-Cocoapods/Assets/**']
   }
+  
+  s.dependency 'SnapKit'
+  
+  s.test_spec 'UnitTests' do |test_spec|
+    test_spec.source_files = 'Resource-Bundling-Cocoapods/UnitTests/**'
+  end
 end

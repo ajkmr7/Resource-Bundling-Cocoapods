@@ -1,5 +1,5 @@
 import XCTest
-import Resource-Bundling-Cocoapods
+import Resource_Bundling_Cocoapods
 
 class Tests: XCTestCase {
     

@@ -14,7 +14,7 @@ extension UIColor {
         if let namespace = color.namespace {
             name = "\(namespace)/\(name)"
         }
-        let resourceBundle = CustomVideoPlayer.resourceBundle
+        let resourceBundle = ResourceBundle.bundle
         if #available(iOS 13, *) {
             self.init(named: name, in: resourceBundle, compatibleWith: .current)!
         } else {
