@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Resource-Bundling-Cocoapods/Classes/**/*'
   
-  #  s.resource_bundles = {
-  #   'Resource-Bundling-Cocoapods' => ['Resource-Bundling-Cocoapods/Assets/**']
-  # }
+  s.resource_bundles = {
+    'Custom-Pod-Resources' => ['Resource-Bundling-Cocoapods/Assets/**']
+  }
 end
