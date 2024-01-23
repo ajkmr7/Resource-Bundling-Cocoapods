@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Resource-Bundling-Cocoapods_Example' do
+  pod 'Resource-Bundling-Cocoapods', :path => '../'
+
+  target 'Resource-Bundling-Cocoapods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
